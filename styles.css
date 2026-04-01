@@ -264,6 +264,15 @@ a {
   gap: 12px;
 }
 
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 26px 60px var(--shadow);
+}
+
 .mock {
   border: 1px solid var(--border);
   background: var(--panel);
